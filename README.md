@@ -1,7 +1,10 @@
 # ANP-Forecasting
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Pandas](https://img.shields.io/badge/Pandas-1.3.0-green)
+![Python](https://img.shields.io/badge/Python-3.13.1%2B-blue)
+![Pandas](https://img.shields.io/badge/Pandas-2.2.3-green)
+![MLflow](https://img.shields.io/badge/MLflow-2.20.1-orange?logo=mlflow&logoColor=white)
+
+
 
  Este repositório apresenta um projeto de forecasting (previsão) aplicado aos preços médios de combustíveis no Brasil, utilizando técnicas de Machine Learning e modelos estatísticos para análise de séries temporais, também será utilizada ferramentas de MLOps para trackeamento, avaliação e melhoria dos modelos testados, juntamente com o uso de `Conformal Prediction` para validar as previsões estatisticamente. 
  
