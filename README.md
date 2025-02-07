@@ -15,7 +15,7 @@ O objetivo é criar modelos preditivos que ajudem a entender a variação dos pr
 
 Na primeira etapa, os dados foram extraídos diretamente da API da ANP, coletando informações semanais sobre os preços médios por estado. O código-fonte e mais detalhes desta fase podem ser encontrados no repositório:
 
-🔗 [Primeira Etapa - Extração de Dados da API ANP]("https://github.com/AurelioGuilherme/ANP-ETL.git")
+🔗 [Primeira Etapa - Extração de Dados da API ANP](https://github.com/AurelioGuilherme/ANP-ETL.git)
 
 
 **Etapa 2: Modelagem e Previsão (Este Repositório)**
