@@ -26,4 +26,19 @@ def trata_datas(df: pd.DataFrame, feature_temporal: Union[str, list[str]]):
         for feature in feature_temporal:
             df_filtrado[feature] = pd.to_datetime(df[feature])
 
+    if isinstance(feature_temporal, str):
+            df_filtrado[feature_temporal] = pd.to_datetime(df[feature_temporal])
+
+
+
     return  df_filtrado
+
+
+def cria_df_serie_temporal(df: pd.DataFrame):
+    df_serie_temporal = df.drop(["NÚMERO DE POSTOS PESQUISADOS","PRODUTO","ESTADO"], axis=1)
+    
+    df_serie_temporal = df_serie_temporal.rename({"DATA INICIAL":"Data",
+                                                  "PREÇO MÉDIO REVENDA": "preco"}, axis=1)
+    
+    df_serie_temporal = df_serie_temporal.set_index("Data")
+    return df_serie_temporal
